@@ -54,7 +54,7 @@ const ImageUpload = ({
 
   return (
     <ImageKitProvider
-      publicKey={`public_PE4brBByLA4cRDvSrNqgJw8YKgg=`}
+      publicKey={publicKey}
       urlEndpoint={urlEndpoint}
       authenticator={authenticator}
     >

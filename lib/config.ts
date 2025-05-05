@@ -7,6 +7,7 @@ const config = {
 
       privateKey: process.env.IMAGEKIT_PRIVATE_KEY!,
     },
+    databaseUrl: process.env.NEXT_PUBLIC_DATABASE_URL!,
   },
 };
 
